@@ -1,0 +1,14 @@
+name: prism
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - tensorboard
+      - scikit-learn
+      - scikit-image
+      - pandas
+      - opencv-python
+      - matplotlib
